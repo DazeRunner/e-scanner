@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d1d5db;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+#scanner {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 2px solid #d1d5db;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.start {
+    background-color: #10b981;
+    color: white;
+}
+
+.stop {
+    background-color: #ef4444;
+    color: white;
+}
+
+#barcode-result,
+#product-info {
+    margin-top: 30px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.product-card img {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    margin: 40px auto;
+}
+/* For light mode*/
+body {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/*for dark mode*/
+body.dark-mode {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode .product-card {
+  background-color: #1f2937;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #4b5563;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.dark-mode .theme-toggle {
+  background-color: #9ca3af;
+  color: black;
+}

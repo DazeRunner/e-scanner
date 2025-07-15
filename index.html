@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-Scanner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>e-Scanner</h1>
+        <p>Scan barcodes & get product details instantly</p>
+    </header>
+    <div id="scanner"></div>
+    <button class="start" onclick="startScanner()">Start Scanning</button>
+    <button class="stop" onclick="stopScanner()">Stop Scanning</button>
+    <button id="toggle-theme" class="theme-toggle">🌙 Dark Mode</button>
+    <div id="barcode-result"></div>
+    <div id="product-info"></div>
+    <footer>
+        <p>Built by Shem Oraon | <a href="https://github.com/DazeRunner" target="_blank">GitHub</a></p>
+    </footer>
+    <script src="lib/html5-qrcode.min.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
